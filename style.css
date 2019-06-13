@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    margin: 0px 1px;
+    background: #36454F;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 1px 4px;
+}
+
+.keyboard {
+    background-color: black;
+    padding: 7px 1px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.space {
+    width: 300px;
+}
+
+.shift {
+    width: 105px;
+}
+
+.up_arrow {
+    margin-left: 56px;
+}
+
+.left_arrow {
+     margin-left: 2px;
+}
+
+.delete {
+    margin-left: 56px;
+}
+
+.enter {
+    position: absolute;
+    right: 170px;
+    height: 104px;
+}
+
+.ctrl {
+    width: 105px;
+}
+
+.alt {
+    width: 87px;
+}
